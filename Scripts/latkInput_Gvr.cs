@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class latkInput_Mirage : MonoBehaviour {
+public class latkInput_Gvr : MonoBehaviour {
 
     public Gvr_NewController ctl0;
     public Gvr_NewController ctl1;

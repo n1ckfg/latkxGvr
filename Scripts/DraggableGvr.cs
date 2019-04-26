@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-public class DraggableMirage : MonoBehaviour {
+public class DraggableGvr : MonoBehaviour {
 
 	public Gvr_NewController ctl;
 	public Transform minBound;
