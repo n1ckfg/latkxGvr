@@ -56,6 +56,13 @@ public class latkInput_Gvr : MonoBehaviour {
             latk.inputDeleteFrame();
         }
 
+        // *** write ***
+        if (ctl0.padDirDown && ctl1.padDirDown) {
+            if ((ctl0.padDown && ctl1.padPressed) || (ctl0.padPressed && ctl1.padDown)) {
+                if (!latk.isWritingFile) latk.armWriteFile = true;
+            }
+        }
+
         // dir pad main
         if (ctl0.padDown) {
             if (ctl0.padDirCenter) {
